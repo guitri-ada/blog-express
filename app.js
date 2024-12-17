@@ -13,10 +13,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // API routes
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+const postsRouter = require('./routes/posts');
 
 app.use('/api', indexRouter);
-app.use('/api', usersRouter);
+app.use('/api', postsRouter);
 
 // Catch-all route for React frontend
 app.get('*', (req, res) => {
