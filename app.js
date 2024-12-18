@@ -17,8 +17,8 @@ app.use('/api/posts', postsRouter); // Blog posts API
 
 // Serve React app for all frontend routes
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/index.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Export the app for use in bin/www
+
 module.exports = app;

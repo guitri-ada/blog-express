@@ -17,7 +17,8 @@
     "jade": "^1.9.2",
     "morgan": "~1.9.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
